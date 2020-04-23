@@ -1,0 +1,48 @@
+.entire-box {
+  border-radius: 1vh;
+  position: relative;
+  margin: 40vh auto auto auto;
+  width: 450px;
+  padding: 40px 50px;
+  display: table;
+  background-color: lightblue;
+}
+
+.text-div .author-div .submit-div {
+  border-radius: 0.5vh;
+}
+.text-div {
+  border-radius: 0.5vh;
+  /* background-color: rgb(65, 188, 230); */
+  text-align: center;
+  /* align-items: center; */
+  padding: 1vh;
+}
+
+.author-div {
+  /* text-align: end; */
+  /* background-color: rgb(65, 188, 230); */
+  align-items: right;
+  float: right;
+  padding: 1vh;
+}
+
+.submit-div {
+  display: block;
+  border-radius: 3px;
+  /* background-color: rgb(65, 188, 230); */
+  padding: 8px 18px 6px 18px;
+  opacity: 1;
+  cursor: pointer;
+}
+/*
+#tweet-quote {
+  float: left;
+  padding: 0px;
+  padding-top: 8px;
+  text-align: center;
+  font-size: 1.2em;
+  margin-right: 5px;
+  height: 30px;
+  width: 40px;
+} */
